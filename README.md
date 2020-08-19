@@ -1,6 +1,5 @@
 ## OBJECT ORIENTED PROGRAMMING (OOP)
-Object Oriented programming (OOP) is a programming pattern that includes or relies on the concept of classes and objects.  
-It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes) which are used to create individual instances of objects.  
+Object Oriented programming (OOP) is a programming pattern that includes or relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes) which are used to create individual instances of objects.  
 
 ## Why OOP?
 OOP makes code organized, reusable, and easy to maintain.  
@@ -20,9 +19,7 @@ Individual objects are instantiated, or created from this blueprint.
 Objects are instances of classes created with specific data.
 
 #### Attributes :
-Attributes are the information that is stored. Attributes are defined in the Class template.  
-When objects are instantiated individual objects contain data stored in the Attributes field.  
-The state of an object is defined by the data in the object’s attributes fields.
+Attributes are the information that is stored. Attributes are defined in the Class template. When objects are instantiated individual objects contain data stored in the Attributes field. The state of an object is defined by the data in the object’s attributes fields.
 
 #### Methods
 Methods represent behaviors. Methods perform actions; methods might return information about an object, or update an object’s data.  
