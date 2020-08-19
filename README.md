@@ -30,7 +30,9 @@ The method’s code is defined in the class definition. When individual objects 
 #### 1. Inheritance
 
 Inheritance allows classes to inherit features of other classes. Put another way, parent classes extend attributes and behaviors to child classes.  
-Inheritance supports reusability – if basic attributes and behaviors are defined in a parent class, child classes can be created extending the functionality of the parent class, and adding additional attributes and behaviors.
+Inheritance supports reusability – if basic attributes and behaviors are defined in a parent class, child classes can be created extending the functionality of the parent class, and adding additional attributes and behaviors.  
+
+In simple words inheritance is a way of creating a new class for using details of an existing class without modifying it. The newly formed class is a derived class (or child class). Similarly, the existing class is a base class (or parent class).
 
 #### 2. Encapsulation
 Using OOP in Python, we can restrict access to methods and variables. This prevents data from direct modification which is called encapsulation.
