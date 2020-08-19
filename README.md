@@ -45,3 +45,5 @@ Abstraction is using simple classes to represent complexity. Abstraction is an e
 #### 4. Polymorphism
 Polymorphism is designing objects to share behaviors. Using inheritance, objects can override shared parent behaviors, with specific child behaviors.  
 Polymorphism allows the same method to execute different behaviors in two ways: method overriding and method overloading.
+
+In simple words polymorphism is an ability (in OOP) to use a common interface for multiple forms (data types).
