@@ -162,18 +162,22 @@ Attributes: declared variables, `name` and `age`
 Inheritance allows classes to inherit features of other classes. Put another way, parent classes extend attributes and behaviors to child classes.  
 Inheritance supports reusability – if basic attributes and behaviors are defined in a parent class, child classes can be created extending the functionality of the parent class, and adding additional attributes and behaviors.  
 
-In simple words inheritance is a way of creating a new class for using details of an existing class without modifying it. The newly formed class is a derived class (or child class). Similarly, the existing class is a base class (or parent class).
+In simple words inheritance is a way of creating a new class for using details of an existing class without modifying it. The newly formed class is a derived class (or child class). Similarly, the existing class is a base class (or parent class).  
+[Link to the example](https://github.com/amitkumarsaw/Object-Oriented-Programming-OOP/blob/master/inheritance.py)
 
 #### 2. Encapsulation
 Using OOP in Python, we can restrict access to methods and variables. This prevents data from direct modification which is called encapsulation.
-Encapsulation hides the internal software code implementation inside a class, and hides internal data of inside objects.
+Encapsulation hides the internal software code implementation inside a class, and hides internal data of inside objects.  
+[Link to the example](https://github.com/amitkumarsaw/Object-Oriented-Programming-OOP/blob/master/encapsulation.py)
 
 #### 3. Abstraction
 Abstraction means that the user interacts with only selected attributes and methods of an object. Abstraction uses simplified, high level tools, to access a complex object.  
-Abstraction is using simple classes to represent complexity. Abstraction is an extension of encapsulation.
+Abstraction is using simple classes to represent complexity. Abstraction is an extension of encapsulation.  
+[Link to the example](https://github.com/amitkumarsaw/Object-Oriented-Programming-OOP/blob/master/abstraction.py)
 
 #### 4. Polymorphism
 Polymorphism is designing objects to share behaviors. Using inheritance, objects can override shared parent behaviors, with specific child behaviors.  
 Polymorphism allows the same method to execute different behaviors in two ways: method overriding and method overloading.
 
-In simple words polymorphism is an ability (in OOP) to use a common interface for multiple forms (data types).
+In simple words polymorphism is an ability (in OOP) to use a common interface for multiple forms (data types).  
+[Link to the example](https://github.com/amitkumarsaw/Object-Oriented-Programming-OOP/blob/master/polymorphism.py)
