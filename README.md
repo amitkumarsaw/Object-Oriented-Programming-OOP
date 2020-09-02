@@ -1,6 +1,9 @@
 ## OBJECT ORIENTED PROGRAMMING (OOP)
 Object Oriented programming (OOP) is a programming pattern that includes or relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes) which are used to create individual instances of objects.  
 
+```python
+```
+
 ## Why OOP?
 OOP makes code organized, reusable, and easy to maintain.  
 Benefits of OOP include security: OOP prevents unwanted access to data, or exposing proprietary code through encapsulation and abstraction.
