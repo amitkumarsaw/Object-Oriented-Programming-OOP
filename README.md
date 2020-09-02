@@ -57,7 +57,9 @@ I am 19 years old
 My name is Raj
 I am 25 years old
 ```
-This is also a reason why we use OOP.
+This is also a reason why we use OOP.  
+
+**Now this may seem like a lot of work just to print names and ages and many of you might be thinking why not print the names and ages directly using the predefined function `print()`. Well you may be right in this case but classes are gonna be a lot more useful in large scale programming. So just try to accept the concepts without overthinking it**
 
 ## Why OOP?
 OOP makes code organized, reusable, and easy to maintain.  
