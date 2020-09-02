@@ -78,7 +78,32 @@ Refer the inheritance topic for more details.
 
 **e.g.**  
 ```python
+class employee_name:         # parent class
+    name = ""
 
+    def print_name(self, name):
+        print("My name is {}".format(name))
+
+class introduction(employee_name):        # subclass
+    age = 0
+
+    def print_age(self, age):
+        print("I am {} years old".format(age))
+
+intro = introduction()
+
+intro.print_name("Amit")
+intro.print_age(20)
+```
+**OUTPUT:**  
+```
+My name is Amit
+I am 20 years old
+```
+Here the subclass `introduction` inherits the parent class `employee_name`, in this way we are reusing the parent class in our subclass without writing the  parent class codes again. This gives all the features of the parent class to the sub class plus additional features(print_age) of the sub class. Now we create the instance of the sub class, using the instant of the sub class we can call the objects of the parent class as well.
+
+#### Easy to maintain:
+It is easy to maintain as if you want some changes to the properties of the class, you can simply go change/alter the class. This will automatically change the property in all the places you used the class instant or called a class object.
 
 ### Building blocks of OOP :
 - classes
@@ -87,7 +112,7 @@ Refer the inheritance topic for more details.
 - attributes
 
 #### Classes :
-In a nutshell, they’re essentially user defined data types. Classes are where the programmer creates a blueprint for the structure of methods and attributes.  
+In a nutshell, they’re essentially user defined data types. Classes are where the programmer creates a blueprint for the structure of methods and attributes. 
 Individual objects are instantiated, or created from this blueprint.
 
 #### Objects :
@@ -98,7 +123,37 @@ Attributes are the information that is stored. Attributes are defined in the Cla
 
 #### Methods
 Methods represent behaviors. Methods perform actions; methods might return information about an object, or update an object’s data.  
-The method’s code is defined in the class definition. When individual objects are instantiated, these objects can call the methods defined in the class.
+The method’s code is defined in the class definition. When individual objects are instantiated, these objects can call the methods defined in the class.  
+
+**e.g.**  
+
+```python
+class introduction:
+
+    # declairing variables (NOTE: variables definied here can be called even outside the class)
+    name = ""
+    age = 0
+
+    # functions inside a class are called METHODS
+    def print_name(self, name):
+        print("My name is {}".format(name))
+
+    def print_age(self, age):
+        print("I am {} years old".format(age))
+
+intro = introduction()                # creating instance
+
+# calling methods and variables with the help of instances
+intro.print_name("Amit")                                    # the "self" argument given in the methods will automatically take "intro" as its value
+intro.print_age(20)
+
+print(intro.age) 
+```
+here,  
+class: `introduction`  
+Object: `intro`
+Methods: all the functions, `print_name` and `print_age`
+Attributes: declared variables, `name` and `age`  
 
 ## Four principles of OOP:
 
