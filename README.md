@@ -1,12 +1,69 @@
 ## OBJECT ORIENTED PROGRAMMING (OOP)
 Object Oriented programming (OOP) is a programming pattern that includes or relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes) which are used to create individual instances of objects.  
 
+**e.g.**  
+
 ```python
+class introduction:
+
+    # defining variables (NOTE: variables definied here can be called even outside the class)
+    name = ""
+    age = 0
+
+    # functions inside a class are called METHODS
+    def print_name(self, name):
+        print("My name is {}".format(name))
+
+    def print_age(self, age):
+        print("I am {} years old".format(age))
+
+intro = introduction()                # creating instance
+
+# calling methods and variables with the help of instances
+intro.print_name("Amit")                                    # the "self" argument given in the methods will automatically take "intro" as its value
+intro.print_age(20)
+
+print(intro.age)                                           # calling variable outside the class
 ```
+**OUTPUT:**  
+```
+My name is Amit
+I am 20 years old
+0
+```
+You must have heard the word `PLUEPRINT` while studying classes, let's what it is with the help of above example,  
+
+As you can see in the above example we made a class `introduction` with some methods. Now we need to think that example in a wwider way. Suppose that code is being used in a company and we need to print name and age of 100s of employees, we have already created a plueprint of the print statements and now we just need to make an instance and call the methods of the class for different employees with their names and age as parameters,  
+```python
+intro.print_name("Amit")
+intro.print_age(20)
+
+print("\n")                      # to give a line space
+intro.print_name("Sumit")
+intro.print_age(19)
+
+print("\n")
+intro.print_name("Raj")
+intro.print_age(25)
+```
+**OUTPUT:**  
+```
+My name is Amit
+I am 20 years old
+
+My name is Sumit
+I am 19 years old
+
+My name is Raj
+I am 25 years old
+```
+This is also a reason why we use OOP.
 
 ## Why OOP?
 OOP makes code organized, reusable, and easy to maintain.  
-Benefits of OOP include security: OOP prevents unwanted access to data, or exposing proprietary code through encapsulation and abstraction.
+Benefits of OOP include security: OOP prevents unwanted access to data, or exposing proprietary code through encapsulation and abstraction.  
+
+
 
 ### Building blocks of OOP :
 - classes
