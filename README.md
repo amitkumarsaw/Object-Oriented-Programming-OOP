@@ -74,7 +74,11 @@ In the above example we bundles the variables for introduction and actions on th
 
 #### REUSABLE:
 In OOP reusability means we can use the objects of a class into another class(subclass). i.e. we can use all the objects of a class without writting the code again and again, plus we can add more objects to the subclass. This way the subclass will have the properties of both the parent class and the subclass. This whole mechanism is called `inheritance`.  
-Refer the inheritance topic for more details.
+Refer the inheritance topic for more details.  
+
+**e.g.**  
+```python
+
 
 ### Building blocks of OOP :
 - classes
