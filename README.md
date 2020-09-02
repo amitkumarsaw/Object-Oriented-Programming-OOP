@@ -6,7 +6,7 @@ Object Oriented programming (OOP) is a programming pattern that includes or reli
 ```python
 class introduction:
 
-    # defining variables (NOTE: variables definied here can be called even outside the class)
+    # declairing variables (NOTE: variables definied here can be called even outside the class)
     name = ""
     age = 0
 
@@ -33,7 +33,7 @@ I am 20 years old
 ```
 You must have heard the word `PLUEPRINT` while studying classes, let's what it is with the help of above example,  
 
-As you can see in the above example we made a class `introduction` with some methods. Now we need to think that example in a wwider way. Suppose that code is being used in a company and we need to print name and age of 100s of employees, we have already created a plueprint of the print statements and now we just need to make an instance and call the methods of the class for different employees with their names and age as parameters,  
+As you can see in the above example we made a class `introduction` with some methods. Now we need to think that example in a wider level. Suppose that code is being used in a company and we need to print name and age of 100s of employees, we have already created a plueprint of the print statements and now we just need to make an instance and call the methods of the class for different employees with their names and age as parameters,  
 ```python
 intro.print_name("Amit")
 intro.print_age(20)
@@ -59,13 +59,22 @@ I am 25 years old
 ```
 This is also a reason why we use OOP.  
 
-**Now this may seem like a lot of work just to print names and ages and many of you might be thinking why not print the names and ages directly using the predefined function `print()`. Well you may be right in this case but classes are gonna be a lot more useful in large scale programming. So just try to accept the concepts without overthinking it**
+**Now this may seem like a lot of work just to print names and ages and many of you might be thinking why not print the names and ages directly using the predefined function `print()`. Well you may be right in this case but classes are gonna be a lot more useful in large scale programming. So just try to accept the concepts without overthinking it.**
 
 ## Why OOP?
 OOP makes code organized, reusable, and easy to maintain.  
 Benefits of OOP include security: OOP prevents unwanted access to data, or exposing proprietary code through encapsulation and abstraction.  
 
+Now let's take a look at all the aspects more closely:
 
+#### ORGANISED:
+In python we declair veriables and perform actions on those veriables with the help of functions. Now when you work will large number of variables and functions (performing actions on those functions) wouldn't it be good if we can find all the variables and functions associated with them in the same place (for the perpose of debugging or altering the program later for some reason). This is where OOP comes into use, we can bundle the variables and functions associated with them in different classes.  
+We can aslo call the objects of the class at any moment in our code.  
+In the above example we bundles the variables for introduction and actions on those variables (print_name and print_age) under the class `introduction`.  
+
+#### REUSABLE:
+In OOP reusability means we can use the objects of a class into another class(subclass). i.e. we can use all the objects of a class without writting the code again and again, plus we can add more objects to the subclass. This way the subclass will have the properties of both the parent class and the subclass. This whole mechanism is called `inheritance`.  
+Refer the inheritance topic for more details.
 
 ### Building blocks of OOP :
 - classes
