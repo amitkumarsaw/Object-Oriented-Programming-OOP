@@ -151,8 +151,8 @@ print(intro.age)
 ```
 here,  
 class: `introduction`  
-Object: `intro`
-Methods: all the functions, `print_name` and `print_age`
+Object: `intro`  
+Methods: all the functions, `print_name` and `print_age`  
 Attributes: declared variables, `name` and `age`  
 
 ## Four principles of OOP:
