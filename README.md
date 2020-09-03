@@ -155,7 +155,7 @@ Object: `intro`
 Methods: all the functions, `print_name` and `print_age`  
 Attributes: declared variables, `name` and `age`  
 
-## `self` and `__init__` methods:
+### `self` and `__init__` methods:
 First let's look at the book definition of these methods,  
 
 **self:**  
