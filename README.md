@@ -158,10 +158,10 @@ Attributes: declared variables, `name` and `age`
 ## `self` and `__init__` methods:
 First let's look at the book definition of these methods,  
 
-**self:**  
+**`self`:**  
 self represents the instance of the class. By using the "self" keyword we can access the attributes and methods of the class in python.  
 
-**__init__:**  
+**`__init__`:**  
 `__init__` is a predefined method in python OOP. It is known as a constructor in object oriented concepts. This method called when an object is created from the class and it allow the class to initialize the attributes of a class.  
 
 Now lets understand what it is,  
@@ -171,7 +171,7 @@ intro = introduction()
 ```
 This is alright but won't it be interesting if we can pass the parameters at the same time we create the instance,
 ```python
-intro = ("Amit", 20)
+intro = introduction("Amit", 20)
 ```
 This is where `__init__` comes into play, it is a predefined method which gets called automatically when we create the instance of a class.  
 Let's see an example and understand more,  
@@ -201,7 +201,7 @@ You might be thinking why haven't i passed any parameter for `self`, well becaus
 In the example `self` will take `intro` as its parameter,    
 `self.n = name` will represent `intro.a = name` and `self.a = age` will represent `intro.a = age`.  
 
-When we create the instance, the `__init__` method will be called automatically initializing everything inside it. The parameters `Amit` and `20` gets passed to the `__init__` method as arguments, and the `__init__` method will assign the parameters to the variables `self.n` and `self.a` respectively which can be used by the methods of the class.  
+When we create the instance, the `__init__` method will be called automatically initializing everything inside it. The parameters `Amit` and `20` gets passed to the `__init__` method as arguments, and the `__init__` method will assign the parameters to the variables `self.n`(intro.n) and `self.a`(intro.a) respectively which can be used by the methods of the class.  
 
 ### Why do we use `__init__`?
 When a new instance of a python class is created, it is the __init__ method which is called and proves to be a very good place where we can modify the object after it has been created. Means we don't need locate the methods called in different parts of the program. We can just alter the parameters in the object(instance).  
@@ -214,9 +214,9 @@ intro = introduction("Sumit", 18)
 My name is Sumit
 I am 18 years old
 ```
-Here we didn't need to find the called methods("print_name" and "print_age"). We just went to the instance and altered the name and age from there. Isn't it convenient to have init in our class. It gets more convenient when we have a lot of methods in our class. It saves us time to find every called method of the class and alter their parameters one by one.  
+Here we didn't need to find the called methods("print_name" and "print_age"). We just went to the instance and altered the name and age from there. Isn't it convenient to have `__init__` in our class. It gets more convenient when we have a lot of methods in our class. It saves us time to find every called method of the class and alter their parameters one by one.  
 
-Now that's done, how can we just blindly believe the statement `"__init__ function gets called automatically when the instance is created"`. The answer is simple, let's just see an example.
+Now that's done, how can we just blindly believe the statement `"__init__ function gets called automatically when the instance is created"`. The answer is simple, let's just see an example.  
 e.g.  
 ```python
 class introduction:
