@@ -158,10 +158,10 @@ Attributes: declared variables, `name` and `age`
 ## `self` and `__init__` methods:
 First let's look at the book definition of these methods,  
 
-**`self`:**  
+**self:**  
 self represents the instance of the class. By using the "self" keyword we can access the attributes and methods of the class in python.  
 
-**`__init__`:**  
+**\__init__:**  
 `__init__` is a predefined method in python OOP. It is known as a constructor in object oriented concepts. This method called when an object is created from the class and it allow the class to initialize the attributes of a class.  
 
 Now lets understand what it is,  
